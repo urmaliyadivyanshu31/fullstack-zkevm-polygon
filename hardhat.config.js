@@ -12,5 +12,9 @@ module.exports = {
       url: `https://rpc.public.zkevm-test.net`,
       accounts: [process.env.ACCOUNT_PRIVATE_KEY],
     },
+    goerli: {
+      url: `https://rpc.ankr.com/eth_goerli`,
+      accounts: [process.env.ACCOUNT_PRIVATE_KEY],
+    }, 
   },
 };
